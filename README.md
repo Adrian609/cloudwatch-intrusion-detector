@@ -6,8 +6,6 @@ Starter project for a network-traffic intrusion detection using tabular AWS Clou
 Cybersecurity: Suspicious Web Threat Interactions
 - https://www.kaggle.com/datasets/jancsg/cybersecurity-suspicious-web-threat-interactions
 
-Place your CSV file in `data/` (for example `data/your_dataset.csv`).
-
 ## Project layout
 - `notebooks/intrusion_detector.ipynb`: step-by-step notebook for Parts 1-6
 - `src/train.py`: end-to-end training/evaluation pipeline
