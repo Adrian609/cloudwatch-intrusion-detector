@@ -1,9 +1,9 @@
 # CloudWatch Intrusion Detector (Assignment Starter)
 
-Starter project for a network-traffic intrusion detection assignment using tabular AWS CloudWatch-style logs.
+Starter project for a network-traffic intrusion detection using tabular AWS CloudWatch-style logs.
 
-## Dataset options
-- https://www.kaggle.com/datasets/startingsecurity/cybersecurity-honeypot-attacks
+## Dataset
+Cybersecurity: Suspicious Web Threat Interactions
 - https://www.kaggle.com/datasets/jancsg/cybersecurity-suspicious-web-threat-interactions
 
 Place your CSV file in `data/` (for example `data/your_dataset.csv`).
@@ -39,11 +39,4 @@ Notes:
 - `outputs/failure_cases.csv`: up to 5 misclassified examples with failure tags
 - `outputs/run_metadata.json`: split details and preprocessing metadata
 
-## How this maps to assignment parts
-1. **Define the problem**: write answers in notebook markdown cells (Part 1).
-2. **Data prep + features**: handled in notebook and `src/train.py` (imputation, encoding, scaling, split).
-3. **Neural network**: PyTorch feedforward NN with <=3 hidden layers, ReLU, sigmoid output.
-4. **Baseline comparison**: Logistic Regression baseline + metric comparison table.
-5. **Failure case analysis**: exports misclassified examples and starter failure categories.
-6. **Analysis**: final markdown response section in notebook.
 
