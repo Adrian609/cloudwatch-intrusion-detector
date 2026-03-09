@@ -1,4 +1,4 @@
-# CloudWatch Intrusion Detector (Assignment Starter)
+# CloudWatch Intrusion Detector
 
 Starter project for a network-traffic intrusion detection using tabular AWS CloudWatch-style logs.
 
