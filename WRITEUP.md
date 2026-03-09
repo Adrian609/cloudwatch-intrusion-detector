@@ -18,7 +18,7 @@ A neural network can learn nonlinear relationships among engineered traffic feat
 
 ## Part 2 - Data Preparation & Feature Engineering
 
-Dataset used: `data/dionaeaClean2.csv` (loaded with robust CSV handling due malformed rows).
+Dataset used: `data/CloudWatch_Traffic_Web_Attack.csv`.
 
 Steps completed:
 1. Loaded data and normalized column names.
