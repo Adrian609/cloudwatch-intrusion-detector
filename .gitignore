@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Local dataset files
+data/*.csv
+data/*.zip
+!data/.gitkeep
+
+# Generated artifacts
+outputs/*
+!outputs/.gitkeep
